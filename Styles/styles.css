@@ -7,7 +7,7 @@ h1{
 .HomeHeading{
     text-align: center;
     margin: 5rem;
-
+    font-size: 65px;
 }
 
 .profile-img{
@@ -25,6 +25,14 @@ h1{
     text-align: center;
     font-style: initial;
     color: deeppink;
+}
+
+.Under-pic{
+    text-align: center;
+    font-family: Tinos;
+    font-size: 50px;
+    
+
 }
 
 .RequestApt{
