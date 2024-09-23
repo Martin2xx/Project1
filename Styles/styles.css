@@ -1,3 +1,15 @@
+
+h1{
+    font-family: Tinos;
+ 
+}
+
+.HomeHeading{
+    text-align: center;
+    margin: 5rem;
+
+}
+
 .profile-img{
     width: 500px;
     display: block;
@@ -8,4 +20,14 @@
     width: 500px;
     display: block;
     margin: 5rem auto;
+}
+.MyWorkHeading{
+    text-align: center;
+    font-style: initial;
+    color: deeppink;
+}
+
+.RequestApt{
+text-align: center;
+text-decoration: underline;
 }
