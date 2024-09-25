@@ -39,3 +39,13 @@ h1{
 text-align: center;
 text-decoration: underline;
 }
+
+ul{
+    justify-content: center;
+
+}
+
+
+.container-fluid-footer{
+    text-align: center;
+}
