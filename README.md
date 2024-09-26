@@ -1,5 +1,11 @@
 # Martin Ramirez
 
+# Links 
+
+Github: https://github.com/Martin2xx/Project1
+
+Hosting Link: 
+
 # Description
 The website I created is for my fiance Ashley who is a hairstylist. Concept is to help clients request appointments and get information. Clients are able to view recent work.
 
