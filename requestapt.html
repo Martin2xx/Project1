@@ -1,97 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles/bootswatch-theme.css">
-    <link rel="stylesheet" href="./Styles/styles.css">
-</head>
-<header>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/bootswatch-theme.css" />
+    <link rel="stylesheet" href="./Styles/styles.css" />
+  </head>
+  <header>
+    <ul class="nav nav-pills">
+      <li class="nav-item">
+        <a class="nav-link active" href="./index.html">Home</a>
+      </li>
 
-      <ul class="nav nav-pills">
-        <li class="nav-item">
-          <a class="nav-link active" href="./index.html">Home</a>
+      <li class="nav-item">
+        <a class="nav-link" href="./mywork.html">My Work</a>
+      </li>
 
-          <li class="nav-item">
-            <a class="nav-link" href="./mywork.html">My Work</a>
-          </li>
-      
-        
-        <li class="nav-item">
-          <a class="nav-link" href="./requestapt.html">Request Appointment</a>
-        </li>
-    
-      </ul>
-  
-</header>
+      <li class="nav-item">
+        <a class="nav-link" href="./requestapt.html">Request Appointment</a>
+      </li>
+    </ul>
+  </header>
 
+  <main>
+    <div><h1 class="RequestApt">Insert Info To Request Appointment</h1></div>
 
+    <div>
+      <form action="#" method="get">
+        <div>
+          <label>
+            First Name:
+            <input type="text" required />
+          </label>
+        </div>
 
+        <div>
+          <label>
+            Last Name:
+            <input type="text" required />
+          </label>
 
-<main>
- <div> <h1 class="RequestApt" >Insert Info To Request Appointment</h1></div>
+          <div>
+            <label>
+              Phone Number:
+              <input type="tel" required />
+            </label>
 
+            <div>
+              <label>
+                E-Mail:
+                <input type="email" required />
+              </label>
 
- <div> <form action="#" method="get">
-<div> <label>
-  First Name:
-<input type="text" required >
-</label>
-</div>
+              <div>
+                <label>
+                  Message:
+                  <input type="text" />
+                </label>
+              </div>
 
-<div>
-<label>
-  Last Name:
-<input type="text" required >
-</label>
-
-<div>
-<label>
-  Phone Number: 
-<input type="tel" required >
-
-</label>
-
-<div>
-<label> 
-  E-Mail:
-<input type="email" required >
-
-</label>
-
-
-<div>
-
-<label>
-Message:
-<input type="textarea">
-
-</label>
-
-</div>
-
-<div>
-
-<button type="submit">Submit</button>
-</div>
-
-</div>
-
-</div>
-</div>
-
-
-
-
-</form>
-</div>
-
-</main>
-
-
-
+              <div>
+                <button type="submit">Submit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </main>
 </html>
