@@ -578,7 +578,7 @@ legend + * {
 
 ::file-selector-button {
   font: inherit;
-  -webkit-appearance: button;
+
 }
 
 output {
@@ -2415,7 +2415,7 @@ textarea.form-control-lg {
   background-size: contain;
   border: 1px solid rgba(255, 255, 255, 0.2);
   -webkit-print-color-adjust: exact;
-  color-adjust: exact;
+  
   print-color-adjust: exact;
 }
 .form-check-input[type=checkbox] {
