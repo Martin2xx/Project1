@@ -33,9 +33,12 @@ h1{
     font-family: Tinos;
     font-size: 50px;
     color: silver;
-    
 
 }
+.img-col{
+    padding-left: 8rem;
+}
+
 
 .RequestApt{
 text-align: center;
